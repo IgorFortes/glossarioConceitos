@@ -48,10 +48,10 @@ classe, sendo que essa materialização é denominada objeto. Para realizar a in
 **Exemplo:**
 
 ```java
-public class ExemploInstanciacao {
+public class instanciacaoGlossario {
 
-    public void foo() {
-        ExemploInstanciacao exemplo = new ExemploInstanciacao();
+    public void pinguim() {
+        instanciacaoGlossario exemploTeste = new instanciacaoGlossario();
         // executa código
     }
 
@@ -75,7 +75,7 @@ Os métodos setters servem para atribuir valores para os atributos da classe.
 **Exemplo:**
 
 ```java
-public class ExemploEncapsulamento {
+public class encapsulamentoGlossario {
     
     private int valor;
     
@@ -107,13 +107,13 @@ como o mesmo nome, porém com diferenciações nos parâmetros e/ou tipo do reto
 **Exemplo:**
 
 ```java
-public class ExemploSobrecarga {
+public class sobrecargaGlossario {
 
-    public int foo(int a) {
+    public int pinguim(int a) {
         // executa código
     }
     
-    public double foo(double a) {
+    public double pinguim(double a) {
         // executa código
     }
 
@@ -140,11 +140,11 @@ utilizada a palavra reservada static.
 **Exemplo:**
 
 ```java
-public class ExemploEscopo {
+public class escopoGlossario {
 
     public static int valor = 10;
     
-    public static void foo() {
+    public static void pinguim() {
         // executa código
     }
 
@@ -177,12 +177,12 @@ ou não.
 **Exemplo:**
 
 ```java
-public class ExemploPalavrasReservadas {
+public class palavrasReservadasGlossario {
 
-    public void foo() {
-        new ExemploPalavrasReservadas();
+    public void gato() {
+        new palavrasReservadasGlossario();
         
-        ExemploPalavrasReservadas pr = new ExemploPalavrasReservadas();
+        palavrasReservadasGlossario pr = new palavrasReservadasGlossario();
     }
 
 }
@@ -198,11 +198,11 @@ comparação, sendo interessante utilizar esse comando em desvio de fluxos.
 **Exemplo:**
 
 ```java
-public class ExemploPalavrasReservadas {
+public class palavrasReservadasGlossario {
 
-    public void foo(Objeto obj) {
+    public void tartaruga(Objeto obj) {
         
-        if(obj instanceof ExemploPalavrasReservadas) {
+        if(obj instanceof palavrasReservadasGlossario) {
             // executa código
         }
         
@@ -222,11 +222,11 @@ diferenciar as variáveis locais dos atributos.
 **Exemplo:**
 
 ```java
-public class ExemploPalavrasReservadas {
+public class palavrasReservadasGlossario {
 
     private int valor;
 
-    public void foo(int valor) {
+    public void pegasus(int valor) {
         this.valor = valor;
         // executa código
     }
@@ -246,14 +246,11 @@ Esta palavra chave é utilizada antes do tipo/retorno da variável/método.
 **Exemplo:**
 
 ```java
-// exemplo em classe
-public class ExemploPalavrasReservadas {
+public class palavrasReservadasGlossario {
 
-    // exemplo em variavel
     public double PI;
     
-    // exemplo em metodo
-    public void foo() {
+    public void dinossauro() {
         // executa código
     }
     
@@ -271,13 +268,11 @@ ou altere seus dados e/ou comportamentos.
 **Exemplo:**
 
 ```java
-public class ExemploPalavrasReservadas {
+public class palavrasReservadasGlossario {
 
-    // exemplo em variavel
     private double PI;
     
-    // exemplo em metodo
-    private void foo() {
+    private void hipogrífo() {
         // executa código
     }
     
@@ -299,11 +294,11 @@ pai de outras classes.
 **Exemplo:**
 
 ```java
-final class ExemploPalavrasReservadas {
+final class palavrasReservadasGlossario {
 
     final double PI = 3.14d;
     
-    final void foo() {
+    final void godzilla() {
         // executa código
     }
     
@@ -324,9 +319,9 @@ que a operação seja realizada.
 **Exemplo:**
 
 ```java
-public class ExemploRelacionamentos {
+public class relacionamentosGlossario {
 
-    public void foo(ObjetoDependencia objDep) {
+    public void vaca(ObjetoDependencia objDep) {
         // executa código
     }
 
