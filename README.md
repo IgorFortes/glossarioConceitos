@@ -52,8 +52,7 @@ public class ExemploInstanciacao {
 
     public void foo() {
         ExemploInstanciacao exemplo = new ExemploInstanciacao();
-        
-        //realiza outras operacoes
+        // executa código
     }
 
 }
@@ -111,11 +110,11 @@ como o mesmo nome, porém com diferenciações nos parâmetros e/ou tipo do reto
 public class ExemploSobrecarga {
 
     public int foo(int a) {
-        // faz algo
+        // executa código
     }
     
     public double foo(double a) {
-        // faz algo
+        // executa código
     }
 
 }
@@ -143,12 +142,10 @@ utilizada a palavra reservada static.
 ```java
 public class ExemploEscopo {
 
-    // variavel de classe
     public static int valor = 10;
     
-    // metodo de classe
     public static void foo() {
-        // faz algo
+        // executa código
     }
 
 }
@@ -183,10 +180,8 @@ ou não.
 public class ExemploPalavrasReservadas {
 
     public void foo() {
-        // instanciacao sem referencia
         new ExemploPalavrasReservadas();
         
-        // instanciacao com referencia
         ExemploPalavrasReservadas pr = new ExemploPalavrasReservadas();
     }
 
@@ -208,7 +203,7 @@ public class ExemploPalavrasReservadas {
     public void foo(Objeto obj) {
         
         if(obj instanceof ExemploPalavrasReservadas) {
-            // faz algo
+            // executa código
         }
         
     }
@@ -233,8 +228,7 @@ public class ExemploPalavrasReservadas {
 
     public void foo(int valor) {
         this.valor = valor;
-        
-        // realiza operacoes
+        // executa código
     }
 
 }
@@ -260,7 +254,7 @@ public class ExemploPalavrasReservadas {
     
     // exemplo em metodo
     public void foo() {
-        // faz algo
+        // executa código
     }
     
 }
@@ -284,7 +278,7 @@ public class ExemploPalavrasReservadas {
     
     // exemplo em metodo
     private void foo() {
-        // faz algo
+        // executa código
     }
     
 }
@@ -305,15 +299,12 @@ pai de outras classes.
 **Exemplo:**
 
 ```java
-// exemplo em classe
 final class ExemploPalavrasReservadas {
 
-    // exemplo em variavel
     final double PI = 3.14d;
     
-    // exemplo em metodo
     final void foo() {
-        // faz algo
+        // executa código
     }
     
 }
@@ -336,7 +327,7 @@ que a operação seja realizada.
 public class ExemploRelacionamentos {
 
     public void foo(ObjetoDependencia objDep) {
-        // realiza operacoes com o objDep
+        // executa código
     }
 
 }
