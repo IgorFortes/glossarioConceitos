@@ -1,14 +1,11 @@
-# GlossarioPOO
+# Glossário de POO
 
-Glossário da matéria de Programação Orientada a Objetos.
+Glossário de Programação Orientada a Objetos.
 
 Índice
 ========
 
    * [Construtor](#construtor)
-      * [Construtor Default](#construtor-default)
-      * [Construtor sem parâmetros](#construtor-sem-parâmetros)
-      * [Construtor com parâmetros](#construtor-com-parâmetros)
    * [Instanciação](#instanciação)
    * [Encapsulamento](#encapsulamento)
    * [Getters e Setters](#getters-e-setters)
@@ -39,50 +36,7 @@ de de um objeto. Mais especificamente é uma operação que é realizada quando 
 Uma classe pode definir nenhum ou vários construtores (caso nenhum seja definido, o 
 construtor default é utilizado).
 
-Os construtores são representados no Diagrama de Classes da UML pelo estereótipo *create*.
-
-Construtor default
---------
-
-O construtor default é o construtor padrão de uma classe que não definiu nenhum construtor.
-Caso a classe possua pelo menos um construtor, o construtor default não pode ser aplicado 
-para essa mesma classe.
-
-Construtor sem parâmetros
---------
-
-Um construtor pode ou não possuir parâmetros de entrada, porém cada classe só pode conter 
-um contrutor sem parâmetros (obedecendo a regra das [assinaturas de método](#assinatura-de-método)).
-
-**Exemplo:**
-
-```java
-public class ExemploConstrutor {
-
-    public ExemploConstrutor() {
-        // realiza operacoes
-    }
-
-}
-```
-
-Construtor com parâmetros
---------
-
-O construtor de uma classe pode conter parâmetros de entrada, ademais não existe limitação
-referente ao tipo ou quantidade de parâmetros.
-
-**Exemplo:**
-
-```java
-public class ExemploConstrutor {
-
-    public ExemploConstrutor(int valor1, int valor2) {
-        // realiza operacoes
-    }
-
-}
-```
+Ele que permite fazer inicializações no objeto assim que ele é declarado com o new. Os construtores são representados no Diagrama de Classes da UML pelo *create*.
 
 Instanciação
 ========
