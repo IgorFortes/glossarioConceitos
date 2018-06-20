@@ -330,7 +330,7 @@ public class relacionamentosGlossario {
 
 **Exemplo UML:**
 
-<img align="center" src="/dependencia.png">
+<img align="center" src="dependencia.png">
 
 Relacionamento de Agregação
 --------
@@ -342,7 +342,7 @@ esta classe que os compõem deixe de existir.
 
 **Exemplo UML:**
 
-<img align="center" src="/agragacao.png">
+<img align="center" src="agregacao.png">
 
 Relacionamento de Composição
 --------
@@ -354,4 +354,4 @@ caso esta classe não exista.
 
 **Exemplo UML:**
 
-<img align="center" src="/composicao.png">
+<img align="center" src="composicao.png">
