@@ -30,20 +30,14 @@ Glossário de Programação Orientada a Objetos.
 Construtor
 ========
 
-Um construtor é um processo pertencente a uma classe, tendo como objetivo a criação
-de de um objeto. Mais especificamente é uma operação que é realizada quando um objeto
-é instanciado, retornando assim no final da operação a nova instancia do objeto.
-Uma classe pode definir nenhum ou vários construtores (caso nenhum seja definido, o 
-construtor default é utilizado).
+Um construtor é um processo pertencente a uma classe, tendo como objetivo a criação de de um objeto. Mais especificamente é uma operação que é realizada quando um objeto é instanciado, retornando assim no final da operação a nova instancia do objeto. Uma classe pode definir nenhum ou vários construtores (caso nenhum seja definido, o construtor default é utilizado).
 
 Ele que permite fazer inicializações no objeto assim que ele é declarado com o new. Os construtores são representados no Diagrama de Classes da UML pelo *create*.
 
 Instanciação
 ========
 
-A instanciação de uma classe é o processo utilizado para gerar uma materialização da
-classe, sendo que essa materialização é denominada objeto. Para realizar a instanciação
-é utilizada a palavra reservada [new](#palavra-reservada-new).
+A instanciação de uma classe é o processo utilizado para gerar uma materialização da classe, sendo que essa materialização é denominada objeto. Para realizar a instanciação é utilizada a palavra reservada [new](#palavra-reservada-new).
 
 **Exemplo:**
 
@@ -61,16 +55,14 @@ public class instanciacaoGlossario {
 Encapsulamento
 ========
 
-Encapsulamento é um dos princípios da orientação a objetos, sendo que seu objetivo
-é ocultar os atributos de uma classe, assim protegendo o estado de cada objeto.
+Encapsulamento é um dos princípios da orientação a objetos, sendo que seu objetivo é ocultar os atributos de uma classe, assim protegendo o estado de cada objeto.
 
 Getters e Setters
 ========
 
-Getters e Setters são métodos de classe utilizados para aplicar o princípio
+São métodos de classe utilizados para aplicar o princípio
 do encapsulamento. 
-Os métodos getters servem para recuperar os atributos da classe. 
-Os métodos setters servem para atribuir valores para os atributos da classe.
+Os métodos getters servem para recuperar os atributos da classe e os métodos setters servem para atribuir valores para os atributos da classe.
 
 **Exemplo:**
 
@@ -92,17 +84,13 @@ public class encapsulamentoGlossario {
 Assinatura de Método
 ========
 
-A assinatura de um método demonstra a exclusividade de um método, ou seja, sua
-identidade. A assinatura de um método é composta por seu nome, tipo de retorno,
-tipo dos parâmetros e a quantidade de parâmetros. Desta forma, não pode haver
-dois métodos pertencentes a mesma classe com todas as características 
-definidas acima exatamente iguais.
+A assinatura é composta por seu nome, tipo de retorno, tipo dos parâmetros e a quantidade de parâmetros. Desta forma, não pode haver
+dois métodos pertencentes a mesma classe com todas as características definidas acima exatamente iguais.
 
 Sobrecarga de Método
 ========
 
-A sobrecarga de um método demonstra a capacidade de criação de vários métodos
-como o mesmo nome, porém com diferenciações nos parâmetros e/ou tipo do retorno.
+A sobrecarga de um método demonstra a capacidade de criação de vários métodos como o mesmo nome, porém com diferenciações nos parâmetros e/ou tipo do retorno.
 
 **Exemplo:**
 
@@ -123,19 +111,15 @@ public class sobrecargaGlossario {
 Escopo de variável e método
 ========
 
-O escopo de uma variável ou método demonstra a visibilidade deste componente perante 
-o sistema desenvolvido. De certa forma, podem haver dois tipos de escopos: o escopo 
-de classe e o escopo de objeto.
+O escopo de uma variável ou método demonstra a visibilidade deste componente perante o sistema desenvolvido. De certa forma, podem haver dois tipos de escopos: o escopo de classe e o escopo de objeto.
 
 
 Escopo de classe
 --------
 
-No escopo de classe o atributo ou método é pertencente a classe onde foi definido,
-desta forma, não é necessário ter uma instância da classe para acessar o componente.
+No escopo de classe o atributo ou método é pertencente a classe onde foi definido, desta forma, não é necessário ter uma instância da classe para acessar o componente.
 
-No Java, para representar uma variável ou método como sendo do escopo de uma classe é 
-utilizada a palavra reservada static.
+No Java, para representar uma variável ou método como sendo do escopo de uma classe é utilizada a palavra reservada static.
 
 **Exemplo:**
 
@@ -154,25 +138,18 @@ public class escopoGlossario {
 Escopo de objeto
 --------
 
-No escopo de objeto quaisquer métodos ou atributos pertencentes a classe que não
-forem estáticos são de escopo do objeto. Assim, podem ser alterados individualmente
-necessitando de instâncias do objeto. Caso não seja utilizada a palavra reservada
-static os componentes são por padrão considerados como escopo de objeto.
+No escopo de objeto quaisquer métodos ou atributos pertencentes a classe que não forem estáticos são de escopo do objeto. Assim, podem ser alterados individualmente necessitando de instâncias do objeto. Caso não seja utilizada a palavra reservada *static* os componentes são por padrão considerados como escopo de objeto.
 
 
 Palavras reservadas
 ========
 
-As palavras reservadas são comandos da linguagem que não podem ser utilizadas
-para a definição de nomes de variáveis/métodos pois só podem ser usadas para 
-realizar suas funções específicas.
+As palavras reservadas são comandos da linguagem que não podem ser utilizadas para a definição de nomes de variáveis/métodos pois só podem ser usadas para realizar suas funções específicas.
 
 Palavra reservada new
 --------
 
-A palavra reservada 'new' tem por função [instanciar](#instanciação) um objeto
-a partir de uma classe. Esse objeto criado pode ser referênciado por uma variável
-ou não.
+A palavra reservada 'new' tem por função [instanciar](#instanciação) um objeto a partir de uma classe. Esse objeto criado pode ser referênciado por uma variável ou não.
 
 **Exemplo:**
 
@@ -191,9 +168,7 @@ public class palavrasReservadasGlossario {
 Palavra reservada instanceof
 --------
 
-A palavra reservada 'instanceof' tem por função comparar se um objeto pertence ao mesmo 
-tipo de determinada classe especificada. Deste modo, é retornado um valor booleano pela
-comparação, sendo interessante utilizar esse comando em desvio de fluxos.
+A palavra reservada 'instanceof' tem por função comparar se um objeto pertence ao mesmo tipo de determinada classe especificada. Deste modo, é retornado um valor booleano pela comparação, sendo interessante utilizar esse comando em desvio de fluxos.
 
 **Exemplo:**
 
@@ -214,10 +189,7 @@ public class palavrasReservadasGlossario {
 Palavra reservada this
 --------
 
-A palavra reservada 'this' é utilizada para um objeto fazer referência dele mesmo.
-Geralmente é utilizado dentro de métodos para fazer referência a atributos do
-próprio objeto. Também é utilizado nos métodos [setters](#getters-e-setters) para
-diferenciar as variáveis locais dos atributos.
+A palavra reservada 'this' é utilizada para um objeto fazer referência dele mesmo. Geralmente é utilizado dentro de métodos para fazer referência a atributos do próprio objeto. Também é utilizado nos métodos [setters](#getters-e-setters) para diferenciar as variáveis locais dos atributos.
 
 **Exemplo:**
 
@@ -237,11 +209,7 @@ public class palavrasReservadasGlossario {
 Palavra reservada public
 --------
 
-A palavra reservada 'public' é um modificador de acesso utilizado para definir a visibilidade
-de um atributo ou método de uma classe, ou até mesmo da própria classe. Usando esta palavra 
-reservada, os componentes marcados com a mesma serão visiveis por toda e qualquer classe do sistema.
-
-Esta palavra chave é utilizada antes do tipo/retorno da variável/método.
+A palavra reservada 'public' é um modificador de acesso utilizado para definir a visibilidade de um atributo ou método de uma classe, ou até mesmo da própria classe. Usando esta palavra reservada, os componentes marcados com a mesma serão visiveis por toda e qualquer classe do sistema.
 
 **Exemplo:**
 
@@ -260,10 +228,7 @@ public class palavrasReservadasGlossario {
 Palavra reservada private
 --------
 
-A palavra reservada 'private' é um modificador de acesso utilizado para definir a visibilidade
-de um atributo ou método de uma classe. Usando esta palavra reservada os componentes da classe
-serão visíveis apenas pela própria classe, permitindo apenas que o próprio objeto acesse
-ou altere seus dados e/ou comportamentos.
+A palavra reservada 'private' é um modificador de acesso utilizado para definir a visibilidade de um atributo ou método de uma classe. Usando esta palavra reservada os componentes da classe serão visíveis apenas pela própria classe, permitindo apenas que o próprio objeto acesse ou altere seus dados e/ou comportamentos.
 
 **Exemplo:**
 
@@ -282,14 +247,9 @@ public class palavrasReservadasGlossario {
 Palavra reservada final
 --------
 
-A palavra reservada 'final' indica que o atributo marcado será apenas de leitura, ou seja, seu
-valor é constante. Quando utilizado em variáveis primitivas, seu valor será realmente constante,
-porém em objetos, a referência não pode ser mudada, mas isso não impede do estado do objeto ser
-alterado.
+A palavra reservada 'final' indica que o atributo marcado será apenas de leitura, ou seja, seu valor é constante. Quando utilizado em variáveis primitivas, seu valor será realmente constante, porém em objetos, a referência não pode ser mudada, mas isso não impede do estado do objeto ser alterado.
 
-Quando utilizada em métodos de uma classe, significa que o método não poderá ser sobrescrito, assim
-como é possível definir uma classe como final, desta forma não permitindo que ela seja a classe
-pai de outras classes.
+Quando utilizada em métodos de uma classe, significa que o método não poderá ser sobrescrito, assim como é possível definir uma classe como final, desta forma não permitindo que ela seja a classe pai de outras classes.
 
 **Exemplo:**
 
@@ -311,10 +271,7 @@ Relacionamentos
 Relacionamento de dependência
 --------
 
-O relacionamento de dependência de classes ocorre quando uma classe necessita
-da instância de outra classe que que a mesma consiga realizar suas operações.
-Desta forma, geralmente esse objeto é recebido como argumento pela classe para
-que a operação seja realizada.
+O relacionamento de dependência de classes ocorre quando uma classe necessita da instância de outra classe que que a mesma consiga realizar suas operações. Desta forma, geralmente esse objeto é recebido como argumento pela classe para que a operação seja realizada.
 
 **Exemplo:**
 
@@ -335,10 +292,7 @@ public class relacionamentosGlossario {
 Relacionamento de Agregação
 --------
 
-A agregação é um relacionamento onde uma classe é composta por outras classes
-internamente, ademais esses classes que compõem a classe podem existir mesmo
-sem que a classe exista. Desta forma, os mesmos objetos fazem sentido mesmo que
-esta classe que os compõem deixe de existir.
+A agregação é um relacionamento onde uma classe é composta por outras classes internamente, ademais esses classes que compõem a classe podem existir mesmo sem que a classe exista. Desta forma, os mesmos objetos fazem sentido mesmo que esta classe que os compõem deixe de existir.
 
 **Exemplo UML:**
 
@@ -347,10 +301,7 @@ esta classe que os compõem deixe de existir.
 Relacionamento de Composição
 --------
 
-A composição é um relacionamento onde uma classe é composta por outras classes
-internamente, ademais os objetos que compõem a classe pertencem exclusicamente
-a ela mesma, desta forma, as classes que compõem esta mesma naõ fazem sentido
-caso esta classe não exista.
+A composição é um relacionamento onde uma classe é composta por outras classes internamente, ademais os objetos que compõem a classe pertencem exclusicamente a ela mesma, desta forma, as classes que compõem esta mesma naõ fazem sentido caso esta classe não exista.
 
 **Exemplo UML:**
 
