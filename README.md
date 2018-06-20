@@ -248,7 +248,7 @@ Esta palavra chave é utilizada antes do tipo/retorno da variável/método.
 ```java
 public class palavrasReservadasGlossario {
 
-    public double PI;
+    public double teste;
     
     public void dinossauro() {
         // executa código
